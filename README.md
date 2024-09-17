@@ -45,6 +45,16 @@ Additionally, using Terraform in this project automates and streamlines infrastr
 
 <br/>
 
+## Creating EC2 Key Pairs
+
+To securely connect to your EC2 instances, you need to create a key pair.
+Run the following commands to create a key pair for the web tier and app tier respectively
+
+```
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/my_web_key -C "web tier key"
+
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/my_app_key -C "app tier key"
+```
 
 
 <br/>
