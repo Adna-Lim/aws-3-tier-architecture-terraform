@@ -47,7 +47,7 @@ Additionally, using Terraform in this project automates and streamlines infrastr
 
 ## Creating EC2 Key Pairs
 
-To securely connect to your EC2 instances, you need to create a key pair.
+To securely connect to your EC2 instances, you need to create a key pair.  
 Run the following commands to create a key pair for the web tier and app tier respectively
 
 ```
